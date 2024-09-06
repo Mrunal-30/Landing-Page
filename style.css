@@ -1,0 +1,57 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding-top: 200px;
+  background: transparent;
+  background-image: url(mountain-lake-landscape-in-the-night-illustration-mountain-reflection-in-the-lake-mountain-landscape-for-background-wallpaper-or-landing-page-landscape-panorama-nature-illustration-vector.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+main {
+  padding: 20px 50px 40px 50px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  border: 2px solid rgba(255, 255, 255, 0.356);
+  border-radius: 8px;
+  gap: 20px;
+}
+a {
+  text-decoration: none;
+  color: white;
+  font-weight: 700px;
+}
+
+h1 {
+  color: white;
+}
+input {
+  border-radius: 8px;
+  border: 1px solid rgba(255, 255, 255, 0.356);
+  padding: 4px 100px 4px 8px;
+  background: transparent;
+}
+::placeholder {
+  color: white;
+}
+button {
+  border-radius: 8px;
+  padding: 4px 100px 4px 100px;
+  background-color: white;
+  border: none;
+}
+.check {
+  display: flex;
+  gap: 40px;
+  color: white;
+}
+.aside {
+  color: white;
+}
